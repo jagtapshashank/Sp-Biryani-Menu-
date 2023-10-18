@@ -3,7 +3,7 @@ import React from 'react'
 const MenuCard = ({ menuData }) => {
     return (
         <>
-            <section className="main-card--cointainer ">
+            <section className="main-card--container ">
                 {menuData.map((curElem)=>{
                     const{id,name,category,price,image,description}=curElem;
                     return(
